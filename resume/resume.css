@@ -34,7 +34,7 @@ body {
     background:#555;
     display:block;
     position:relative;
-    coursor:pointer;
+    cursor:pointer;
   }
   
   .toggle span:before,
@@ -89,6 +89,12 @@ body {
     list-style:none;
   }
   
+  .name {
+    background-color: aqua;
+    
+    margin-left: 3%;
+    display: inline-block;
+  }
   .sidebar ul li {
     display:block;
   }
