@@ -63,14 +63,14 @@ body {
   .toggle span.toggle:before {
     top:0;
     transform:rotate(-45deg);
-    background:#4CAF50;
+    background: red;
     
   }
   
   .toggle span.toggle:after {
     top:0;
     transform:rotate(45deg);
-    background:#4CAF50;
+    background: red;
   }
   
   .sidebar {
