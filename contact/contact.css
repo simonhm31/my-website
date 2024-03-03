@@ -34,7 +34,7 @@ body {
     background:#555;
     display:block;
     position:relative;
-    coursor:pointer;
+    cursor:pointer;
   }
   
   .toggle span:before,
