@@ -3,6 +3,8 @@ body {
 }
 
 .wrapper {
+  display: flex;
+  flex-direction: column;
   background-color: bisque;
   margin-top: 80px;
   margin-left: 20px;
@@ -12,7 +14,7 @@ body {
 }
 
 .resume-heading {
-  margin-left: 33%;
+  margin: auto;
   margin-top: 25px; /* Adjust the margin-top value for vertical positioning */
   text-align: center;
   background-color: white;
@@ -24,13 +26,18 @@ body {
   
 }
 
+.resume {
+  margin: auto;
+  margin-top: 30px;
+}
+
 h1 {
   font-size: 5vw;
 }
 
 @media screen and (min-width: 1200px) {
   h1 {
-    font-size: 65px;
+    font-size: 50px;
   }
   
 }
