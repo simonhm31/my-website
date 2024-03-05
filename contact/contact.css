@@ -2,9 +2,23 @@ body {
     background-color: beige;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+  margin-top: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
 
+.card {
+  margin: 25px;
+  border: 1px solid black;
+}
 * {
-    margin:0;
+    margin:s0;
     padding:0;
   }
   
@@ -83,6 +97,7 @@ body {
     box-shadow:0 2px 8px rgba(0,0,0,0.2);
     padding-top:90px;
     transition:all 0.3s ease-out;
+    z-index: 2;
   }
   
   .sidebar ul {
