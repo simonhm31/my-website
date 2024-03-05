@@ -10,4 +10,8 @@ btn.onclick = function() {
     document.getElementById('sidebar').classList.remove('sidebarshow');
     btnst = true;
   }
+
+  
+  
+
 }
