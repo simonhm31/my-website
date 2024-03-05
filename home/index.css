@@ -6,9 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: bisque;
-  margin-top: 80px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 80px 20px 20px 20px;
   border: 1px solid black;
   border-radius: 15px;
 }
@@ -24,6 +22,10 @@ body {
   border-radius: 10px;
   box-shadow: 3px 3px black;
   
+}
+
+.image-card {
+  border: 1px solid black;
 }
 
 iframe {
