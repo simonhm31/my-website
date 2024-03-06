@@ -18,6 +18,24 @@ body {
   border: 1px solid black;
 }
 
+.card-title {
+  border: 1px solid black;
+  margin: auto;
+  width: 21vw;
+  border-radius: 7px;
+  box-shadow: 3px 3px black;
+
+  
+}
+
+
+.card2 {
+  margin: auto;
+  margin-top: 25px;
+  border: 2px solid black;
+  
+}
+
 .contact-button-list {
   display: flex;
   flex-direction: column;
