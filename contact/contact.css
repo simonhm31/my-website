@@ -29,6 +29,16 @@ body {
   
 }
 
+#email-id {
+ color: blue;
+ text-decoration: underline;
+}
+
+#phone-id {
+  color: blue;
+  text-decoration: underline;
+}
+
 
 .card2 {
   margin: auto;
