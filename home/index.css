@@ -26,6 +26,9 @@ body {
 
 .image-card {
   border: 1px solid black;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 iframe {

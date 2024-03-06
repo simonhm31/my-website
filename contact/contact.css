@@ -17,6 +17,19 @@ body {
   margin: 25px;
   border: 1px solid black;
 }
+
+.contact-button-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin: auto;
+  margin-top: 10px;
+  width: 150px;
+}
+
+.contact-button-list a{
+  margin-top: 10px;
+}
 * {
     margin:s0;
     padding:0;
