@@ -22,6 +22,7 @@ body {
   border: 1px solid black;
   margin: auto;
   width: 21vw;
+  max-width: 190px;
   border-radius: 7px;
   box-shadow: 3px 3px black;
 
