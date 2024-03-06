@@ -32,8 +32,7 @@ body {
 }
 
 iframe {
-  width: 60vw;
-  height: 80vw;
+  max-width: 2000px;
   border: 2px solid black;
 }
 
