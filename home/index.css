@@ -3,6 +3,7 @@ body {
 }
 
 .wrapper {
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,32 +11,35 @@ body {
   margin: 80px 20px 20px 20px;
   border: 1px solid black;
   border-radius: 15px;
+  min-height: 100vh; 
 }
 
 .resume-heading {
-  margin: auto;
-  margin-top: 25px; /* Adjust the margin-top value for vertical positioning */
+  margin-top: 25px;
   text-align: center;
   background-color: white;
   border: 1px solid black;
-  width: 24vw;
+  width: 80vw; /* Adjust as needed */
   max-width: 400px;
   border-radius: 10px;
   box-shadow: 3px 3px black;
-  
+  margin-bottom: 20px; /* Adjust as needed */
 }
 
-
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 iframe {
-  
-  margin-top: 30px;
-  margin-bottom: 30px;
   width: 80vw;
-
+  max-width: 750px;
+  overflow: hidden;
   border: 1px solid black;
-  
+  margin-top: 10px; /* Adjust as needed */
 }
+
 
 h1 {
   font-size: 5vw;
