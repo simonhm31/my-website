@@ -25,13 +25,9 @@ body {
 }
 
 
-iframe {
-  max-width: 2000px;
-  border: 2px solid black;
-}
 
 .resume {
-  margin: auto;
+ 
   margin-top: 30px;
   margin-bottom: 30px;
 }
