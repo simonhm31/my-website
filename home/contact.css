@@ -26,6 +26,7 @@ body {
   margin: auto;
   width: 21vw;
   max-width: 190px;
+  min-width: 140px;
   border-radius: 7px;
   box-shadow: 3px 3px black;
 
@@ -43,12 +44,25 @@ body {
 }
 
 
+
 .card2 {
-  margin: auto;
-  margin-top: 25px;
+  width: 22vw;
   border: 2px solid black;
   margin-bottom: 30px;
-  
+  margin: auto;
+  margin-top: 30px;
+}
+
+
+@media screen and (max-width: 500px) {
+  .card2 {
+    /* Adjust styles for smaller screens */
+
+    width: 180px;
+    
+    
+    /* Add more responsive styles as needed */
+  }
 }
 
 .contact-button-list {
@@ -64,7 +78,7 @@ body {
   margin-top: 10px;
 }
 * {
-    margin:s0;
+    margin:0;
     padding:0;
   }
   
