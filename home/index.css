@@ -31,6 +31,8 @@ body {
   align-items: center;
 }
 
+
+
 iframe {
   width: 80vw;
   max-width: 750px;
@@ -49,8 +51,23 @@ h1 {
   h1 {
     font-size: 45px;
   }
+
   
 }
+
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .resume-heading {
+    width: 180px;
+  }
+  
+}
+
+
+
 
 
 
