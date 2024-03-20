@@ -56,13 +56,9 @@ body {
 
 @media screen and (max-width: 500px) {
   .card2 {
-    /* Adjust styles for smaller screens */
-
     width: 180px;
-    
-    
-    /* Add more responsive styles as needed */
   }
+ 
 }
 
 .contact-button-list {
@@ -206,4 +202,17 @@ body {
   .sidebarshow {
     left:0;
   }
-  
+
+@media screen and (max-width: 800px) {
+  .btn-github {
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .btn-github {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+}
